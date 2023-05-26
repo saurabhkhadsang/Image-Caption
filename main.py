@@ -1,5 +1,4 @@
 from transformers import GPT2TokenizerFast, ViTImageProcessor, VisionEncoderDecoderModel
-# import urllib3
 
 from torch.utils.data import Dataset
 from torchtext.data import get_tokenizer

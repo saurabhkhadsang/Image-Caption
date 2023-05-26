@@ -72,7 +72,7 @@ def main():
                     # Load and process the uploaded image file
                     image = Image.open(image_file)
 
-                captions = generate_captions(image, greedy=False)
+                captions = generate_captions(image, greedy=True)
             st.success("Captions generated successfully!")
             st.text(captions)
 
